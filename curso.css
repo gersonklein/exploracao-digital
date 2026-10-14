@@ -1,0 +1,43 @@
+
+.identidade{width:56px;height:auto;object-fit:contain;background:#fff;padding:3px}
+.hero .wrap{grid-template-rows:auto 1fr auto;align-items:end;min-height:min(760px,90svh)}
+.hero h1{max-width:10ch;font-size:clamp(72px,10vw,146px);line-height:.86}
+.kreis--anel{width:min(19vw,250px);right:2%;top:10%}
+.hero .sub{max-width:54ch}.hero .acoes{display:flex}
+.apoio{padding:clamp(28px,5vw,72px) var(--px);border-block:2px solid var(--tinta)}
+.apoio .grade{align-items:start}.apoio .rotulo{color:var(--sinal-texto)}
+.arvore-pagina{display:grid;grid-template-columns:minmax(210px,2.6fr) minmax(0,9.4fr);gap:clamp(24px,4vw,64px);max-width:var(--max);margin-inline:auto;padding-inline:var(--px)}
+.arvore{position:sticky;top:86px;align-self:start;max-height:calc(100svh - 100px);overflow:auto;border-top:2px solid var(--tinta);border-bottom:1px solid var(--linha);padding-block:12px}
+.arvore summary{cursor:pointer;list-style:none;font:700 12px/1.5 var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.arvore summary::-webkit-details-marker{display:none}.arvore summary::after{content:' +';color:var(--sinal-texto)}.arvore[open] summary::after{content:' −'}
+.arvore nav{display:grid;gap:16px;margin-top:16px}.arvore nav section{display:grid;gap:5px}
+.arvore a{font:500 12px/1.45 var(--mono);text-decoration:none;border-left:2px solid var(--linha);padding:4px 6px 4px 9px}
+.arvore a:hover,.arvore a:focus-visible{border-color:var(--sinal);text-decoration:underline}.arvore .unidade{font-weight:700;text-transform:uppercase;margin-top:8px}.arvore .aula{font-family:var(--texto);padding-left:17px}
+.arvore .topic-tree{margin:4px 0 8px 18px}.arvore .topic-tree summary{font:500 11px/1.4 var(--mono);cursor:pointer;text-transform:uppercase}.arvore .topico-link{display:block;font:400 12px/1.4 var(--texto);margin-left:18px}
+.conteudo{min-width:0}.migalhas{padding-block:24px 4px;font:500 11px/1.5 var(--mono);letter-spacing:.06em;text-transform:uppercase}
+.migalhas a{text-underline-offset:3px}.aula-header{padding-block:24px 48px}.aula-header .objetivo{max-width:68ch;border-left:5px solid var(--sinal);padding:14px 18px;margin-top:24px}
+.topico{padding-block:clamp(38px,6vw,76px);border-top:2px solid var(--tinta);scroll-margin-top:90px}
+.topico h2{font:900 clamp(34px,5.2vw,72px)/.88 var(--display);text-transform:uppercase;max-width:19ch;margin-block:12px 24px}
+.topico .prosa{font-size:17px;line-height:1.72;max-width:68ch}.topico .prosa h3{margin-top:1.5em}
+.topico .prosa table{margin-block:20px;border-collapse:collapse;width:100%;display:block;overflow-x:auto}
+.topico .prosa th{font:700 11px/1.35 var(--mono);text-align:left;text-transform:uppercase;background:var(--tinta);color:var(--papel);padding:12px;border:1px solid var(--linha)}
+.topico .prosa td{padding:12px;border:1px solid var(--linha);vertical-align:top;min-width:11ch}
+.topico figure{margin-block:22px}.termolink{text-underline-offset:3px;text-decoration-thickness:1px}
+.fig-pedagogica{max-width:780px;margin:28px 0 0}.fig-pedagogica img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.veja-tambem{font:500 11px/1.5 var(--mono);letter-spacing:.07em;text-transform:uppercase;margin-top:22px}
+.aula-nav{display:grid;grid-template-columns:1fr 1fr;gap:14px;border-top:2px solid var(--tinta);padding-block:24px}
+.aula-nav a{padding:16px;border:1px solid var(--tinta);text-decoration:none}.aula-nav a:hover{background:var(--tinta);color:var(--papel)}
+.exercicio{border:2px solid var(--tinta);padding:clamp(20px,4vw,38px);margin-block:22px;scroll-margin-top:100px}.exercicio summary{font-weight:700;cursor:pointer;padding:8px 0}
+.exercicio .resposta{max-width:68ch;border-left:4px solid var(--sinal);padding:12px 18px;margin-top:12px}
+.busca{display:grid;gap:8px;max-width:620px;margin-block:20px}.busca input{font:400 16px/1.5 var(--texto);padding:12px;border:2px solid var(--tinta);background:var(--papel);color:var(--tinta)}
+.lista-glossario{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;border-top:2px solid var(--tinta)}
+.entrada-glossario{padding:17px 2px;border-bottom:1px solid var(--tinta);scroll-margin-top:88px}.entrada-glossario h2{font:700 20px/1.15 var(--display);text-transform:uppercase;margin-bottom:7px}
+.entrada-glossario p{font-size:15px;line-height:1.55;margin-top:5px}.entrada-glossario .rotulo{display:block;margin-block:8px;color:var(--sinal-texto)}
+.figuras{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 20px}.figuras figure{min-width:0}.figuras img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.atividades{display:grid;gap:20px}.faq{border-block-start:2px solid var(--tinta)}.faq details{border-bottom:1px solid var(--tinta);padding:18px 2px}.faq summary{font:700 20px/1.3 var(--display);text-transform:uppercase;cursor:pointer}
+.marcar{display:flex;gap:10px;align-items:flex-start;margin-top:22px;padding:16px;border:1px solid var(--tinta);font-size:14px}.marcar input{width:20px;height:20px;accent-color:var(--sinal-texto);flex:none;margin-top:2px}
+.progresso-estudo{padding:16px 0;border-top:2px solid var(--tinta);margin-top:30px}.progresso-estudo progress{width:min(100%,420px);height:16px;accent-color:var(--sinal)}
+.creditos{font-size:14px;max-width:75ch}.selo{display:inline-block;border:1px solid currentColor;padding:4px 8px;font:500 11px/1.4 var(--mono);text-transform:uppercase}
+.sem-resultados[hidden],[hidden]{display:none!important}
+@media(max-width:900px){.arvore-pagina{grid-template-columns:1fr}.arvore{position:static;max-height:none}.arvore:not([open]) nav{display:none}.aula-nav{grid-template-columns:1fr}}
+@media(max-width:760px){.hero .wrap{min-height:690px;padding-block:34px 40px}.hero h1{font-size:clamp(62px,14vw,86px);max-width:10ch}.kreis--anel{width:18vw;right:-3vw;top:11%}.hero .acoes{display:grid;grid-template-columns:1fr}.hero .acoes .btn{width:100%;justify-content:center}.lista-glossario,.figuras{grid-template-columns:1fr}.topico .prosa{font-size:16px}.marca{font-size:21px}.identidade{width:48px}}
